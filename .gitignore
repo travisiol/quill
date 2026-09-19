@@ -1,0 +1,30 @@
+# dependencies (any depth — contracts/ has its own package)
+node_modules/
+.pnp
+.pnp.*
+
+# next.js
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# hardhat
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+
+# a deployment manifest is written by the deploy scripts, never committed
+public/deployment.json
+public/uploads/
+
+# env — keep the template
+.env*
+!.env.example
+
+# captures and scratch
+/docs/captures/
+*.log
+.DS_Store
+.vercel
